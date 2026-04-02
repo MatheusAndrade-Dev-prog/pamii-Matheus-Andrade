@@ -101,12 +101,12 @@ const styles = StyleSheet.create({
     fontWeight: '300',
   },
   tecladoContainer: {
-    paddingBottom: 30,
+    paddingBottom: 20,
     paddingHorizontal: 10,
   },
   linha: {
     flexDirection: 'row',
-    marginBottom: 18,
+    marginBottom: 15,
     justifyContent: 'space-between',
   },
 });
