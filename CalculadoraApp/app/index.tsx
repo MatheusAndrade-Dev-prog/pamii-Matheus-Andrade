@@ -20,10 +20,9 @@ export default function Index() {
   const obterCorFundo = (botao: string): string => {
     if (botao === 'C') return '#ff3b30';
     if (botao === '=') return '#34c759';
-    if (botao === 'DEL') return '#555555';
+    if (botao === 'DEL' || botao === '0') return '#555555';
     if (botao === '1' ||botao === '3'|| botao === '5' ||botao === '7'||botao === '9') return 'yellow';
     if (botao === '2' ||botao === '4'|| botao === '6' ||botao === '8') return '#A872BE';
-    if (botao === '0') return 'gray';
     if (['/', 'x', '-', '+'].includes(botao)) return '#ff9500';
     if (['DEL', '.'].includes(botao)) return '#555555';
     return '#333333';
