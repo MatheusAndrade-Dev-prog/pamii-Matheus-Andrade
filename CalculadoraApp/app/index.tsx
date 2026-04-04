@@ -23,6 +23,7 @@ export default function Index() {
     if (botao === 'DEL') return '#555555';
     if (botao === '1' ||botao === '3'|| botao === '5' ||botao === '7'||botao === '9') return 'yellow';
     if (botao === '2' ||botao === '4'|| botao === '6' ||botao === '8') return '#A872BE';
+    if (botao === '0') return 'gray';
     if (['/', 'x', '-', '+'].includes(botao)) return '#ff9500';
     if (['DEL', '.'].includes(botao)) return '#555555';
     return '#333333';
