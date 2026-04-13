@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Atividade_06_04",
-    "slug": "Atividade_06_04",
+    "name": "Registro_de_treinos",
+    "slug": "Registro_de_treinos",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "atividade0604",
+    "scheme": "registrodetreinos",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
