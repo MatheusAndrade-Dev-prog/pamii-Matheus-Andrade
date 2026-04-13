@@ -7,7 +7,7 @@ interface Workout {
    name: string;
    reps: string;
 }
-
+/* estrutura do componente WorkoutTable  que é uma tabela para exibir os exercícios */
 export function WorkoutTable({ data }: { data: Workout[] }) {
    return (
       <View style={styles.container}>
@@ -19,6 +19,7 @@ export function WorkoutTable({ data }: { data: Workout[] }) {
                Séries/Reps
             </ThemedText>
          </View>
+       
          <FlatList
             data={data}
             keyExtractor={(item) => item.id}
